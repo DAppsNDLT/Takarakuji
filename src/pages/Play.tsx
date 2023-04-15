@@ -7,7 +7,7 @@ import ScratchOffCard from "../components/ScratchOffCard";
 
 
 
-const Games = () => {
+const Play = () => {
   const [sticker, setSticker] = useState();
   console.log("sticker: ", sticker);
 
@@ -56,4 +56,4 @@ const Games = () => {
   );
 };
 
-export default Games;
+export default Play;

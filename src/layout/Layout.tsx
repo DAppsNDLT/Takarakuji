@@ -52,7 +52,7 @@ const Layout = (properties: any) => {
       <AppBar position="static" style={{ backgroundColor: "red" }}>
         <Container maxWidth={false}>
           <Toolbar disableGutters>
-            <img src="https://cdn.iconscout.com/icon/premium/png-64-thumb/scratch-lottery-2609515-2201549.png?f=avif" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4652/4652635.png" height="50" width="50" alt="" />
             <strong><span style={{fontSize:"34px"}}>Takarakuji</span></strong>
             <Typography
               variant="h6"
@@ -136,9 +136,9 @@ const Layout = (properties: any) => {
               <Button
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
-                href="/games"
+                href="/play"
               >
-                games
+                play
               </Button>
             </Box>
             {isConnected

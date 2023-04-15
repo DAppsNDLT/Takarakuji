@@ -2,7 +2,7 @@ import React from "react";
 import {Route, Switch} from "react-router-dom";
 import Index from "../pages/Index";
 import About from "../pages/About";
-import Games from "../pages/Games";
+import Play from "../pages/Play";
 
 
 const Routes = () => {
@@ -11,7 +11,7 @@ const Routes = () => {
             <Switch>
                 <Route exact key="/" path="/" component={Index} />;
                 <Route exact key="/" path="/about" component={About} />;
-                <Route exact key="/" path="/games" component={Games} />;
+                <Route exact key="/" path="/play" component={Play} />;
             </Switch>
         </main>
     )
