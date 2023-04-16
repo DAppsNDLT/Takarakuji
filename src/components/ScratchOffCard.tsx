@@ -28,12 +28,13 @@ backgroundRepeat: "no-repeat",
 backgroundSize: "cover"
       }} >
         <br />
-        <h1 style={{ color: "white" }}>Oragami</h1>
+        <h1 style={{ color: "white" }}>Oragami Lotto</h1>
         {/* <img src="https://see.fontimg.com/api/renderfont4/ow3e4/eyJyIjoiZnMiLCJoIjo2MiwidyI6MjAwMCwiZnMiOjMxLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TkZU/xtrude-regular.png" alt="sss" />
         <img src="https://see.fontimg.com/api/renderfont4/eZRPg/eyJyIjoiZHciLCJoIjo2NCwidyI6MjAwMCwiZnMiOjMyLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiJ9/WA/sunnyskypersonaluse-boldita.png" alt="aaa" /> */}
 
         {/* _____________ */}
         <h4 style={{color: "white"}}>Your Numbers</h4>
+        <p style={{color: "white"}}>Get 3 matching numbers on one row. Numbers are from 1-6. The payout is 1ETH for a match</p>
         <Box style={{ display: "flex" }}>
           <Box style={{backgroundColor: "red", border: "2px solid red"}}>
             <Box style={{ display: "flex" }}>
